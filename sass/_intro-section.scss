@@ -1,0 +1,61 @@
+.intro__section{
+    width: 100%;
+
+    .intro__article{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 6.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #000000;
+        text-shadow: rgb(19, 148, 203) 0px 0px 10px;
+        
+    
+
+        .intro__creation-date{
+            margin-top: 3rem;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        .intro__title{
+            font-size: 3rem;
+            margin: 6rem 0;
+        }
+        
+        .intro__poem{
+            font-size: 1.75rem;
+            font-weight: 700;
+            text-shadow: rgb(19, 148, 203) 0px 0px 10px;
+        }
+
+
+        .intro__container-img{
+            margin: 0 auto;
+            padding: 6rem 0;
+            max-width: 450px;
+            img{
+                border-radius: 1.5rem;
+                box-shadow: rgba(3, 168, 250, 0.5) 0px 50px 100px -20px, rgb(1, 170, 255,.5) 0px 30px 60px -30px;
+            }
+        }
+    }
+
+    @media (min-width:1030px){
+        .intro__article{
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .intro__container-img{
+            margin:0;
+        }
+        .intro__container-img,
+        .intro__content{
+            width: 50%;
+        }
+    }
+}   

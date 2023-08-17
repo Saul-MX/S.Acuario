@@ -1,0 +1,23 @@
+.mammals__section{
+    width: 100%;
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .mammals__paragraph{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 2rem;
+        color: #000000;
+        text-shadow: rgb(105, 105, 103) 0px 0px 10px;
+        font-weight: 600;
+        padding: 5rem 0 2rem;
+        display: flex;
+        align-items: center;
+    }
+}

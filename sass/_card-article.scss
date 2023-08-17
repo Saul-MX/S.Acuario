@@ -1,0 +1,97 @@
+.card__article{
+    width: 90%;
+    margin: 0 auto;
+    border: 5px solid #000000;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.665);
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.328) 0px 10px 36px 0px, rgba(0, 0, 0, 0.394) 0px 0px 0px 1px;
+
+    @media(min-width:725px){
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .card__content{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .card__container-img{
+        margin-bottom: 4rem;
+        img{
+            border-radius: 1rem;
+        }
+    }
+
+    .card__title{
+        text-align: center;
+    }
+
+    .surgeon{
+        color: #506bfc;
+    }
+
+    .card__description{
+        margin-top: -2rem;
+    }
+
+    .pilgrim{
+        color: #497e9d;
+    }
+
+    .flame{
+        color: #fd8d05;
+    }
+
+    .tiger{
+        color: #061818;
+    }
+
+    .sword{
+        color: #c19c85;
+    }
+
+    .seal{
+        color: #8bbdc3;
+    }
+
+    .killer{
+        color: #0c111a;
+    }
+
+    .whale{
+        color: #7497af;
+    }
+
+    .narwhal{
+        color: #002843;
+    }
+
+    .dolphin{
+        color:#60a4db;
+    }
+
+    @media(min-width:725px){
+        .card__container-img,
+        .card__content{
+            width: 50%;
+        }
+
+        .card__container-img{
+            margin-bottom: 0;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.card__article-reverse{
+    display: flex;
+    flex-direction: row;
+
+    @media(max-width:725px){
+        flex-direction: column;
+    }
+}
